@@ -1,1 +1,1 @@
-# react-study
+# Curso de ReactJS de Domingo
