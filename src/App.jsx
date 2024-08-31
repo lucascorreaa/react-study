@@ -1,9 +1,9 @@
-import Brand from './components/brand'
+import Hero from './components/hero/'
 
 export default function App() {
   return (
     <div className="app-container">
-      <Brand brand="alelo" />
+      <Hero alignment="right" />
     </div>
   );
 }
