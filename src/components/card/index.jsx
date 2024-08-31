@@ -1,13 +1,11 @@
 import "./style.css";
 
-export default function Card({ title, description, image, imgAlt }) {
+export default function Card({ title, description, src, alt }) {
   return (
-    <div className="card">
-      <img src={image} alt={imgAlt} />
-      <div className="text-wrapper">
-        <p>{title}</p>
-        <p>{description}</p>
-      </div>
+    <div className="card-container">
+      <img src={src} alt={alt} />
+      <h2>{title}</h2>
+      <p>{description}</p>
     </div>
   );
 }
