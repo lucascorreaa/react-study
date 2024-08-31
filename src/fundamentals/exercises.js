@@ -120,4 +120,4 @@ function handleDev(cargo) {
     default: return console.log('Cargo inexistente')
   }
 }
-handleDev('a')
+// handleDev('a')
