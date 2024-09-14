@@ -19,3 +19,11 @@ const { age, gender, name } = person;
 console.log(age);
 console.log(gender);
 console.log(name);
+
+const numbers = [1, 2, 3, 4, 5]
+
+console.log(
+  numbers.forEach((num, index) => {
+    console.log(num * 2)
+  })
+)

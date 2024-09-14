@@ -1,11 +1,9 @@
-import Accordion from '../src/class/hooks/useState/accordion'
-import CountEffect from './class/hooks/useHooks/countEffect';
-import Example from './class/hooks/useEffect/example';
+import PokemonApi from "./class/hooks/useHooks/pokemonApi";
 
 export default function App() {
   return (
     <div className="app-container">
-      <CountEffect />
+      <PokemonApi />
     </div>
   );
 }
