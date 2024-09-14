@@ -1,9 +1,9 @@
-import Brand from './components/brand'
+import Count from './class/hooks/useState/count';
 
 export default function App() {
   return (
     <div className="app-container">
-      <Brand brand="alelo" />
+      <Count />
     </div>
   );
 }
